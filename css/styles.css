@@ -3,22 +3,35 @@
 /*******************************************/
 /* Box Model Hack */
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
   
-  /* Clear fix hack */
-  .clearfix:after {
-       content: ".";
-       display: block;
-       clear: both;
-       visibility: hidden;
-       line-height: 0;
-       height: 0;
-  }
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
   
-  .clear {
-      clear: both;
-  }
+.clear {
+  clear: both;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  list-style: none; 
+}
+
+ul {
+  padding-left: 0;
+}
 /******************************************
 /* MEDIA QUERY
 /*******************************************/
@@ -46,7 +59,9 @@
 /******************************************
 /* QUISINE SECTION
 /*******************************************/
-
+.images img {
+  max-width: 200px;
+}
 
 
 /******************************************
