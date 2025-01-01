@@ -116,13 +116,89 @@ h1 {
   padding-top: 160px;
   font-size: 60px;
   margin-top: 25px;
+  margin-bottom: 20px;
+}
 
+input {
+  width: 375px;
+  padding: 7px 4px;
+  border: solid #dfe1ec 1px;
+}
+
+input:active {
+  border: none;
+}
+
+select {
+  background-color: #ff8800;
+  color: white;
+  border: none;
+  width: 120px;
+  text-align: center;
+  height: 31px;
+  border-radius: 0 10px 10px 0;
+  position: relative;
+  left: -10px;
+  font-weight: 700;
+}
+
+select:hover {
+  cursor: pointer;
+}
+
+.logos {
+  float: left;
+  width: 50%;
+  height: 30px;
+}
+
+.logos ul li {
+  width: 30%;
+  float: left;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.fa-brands {
+  color: #ff8800;
+  padding-right: 5px;
 }
 /******************************************
 /* ABOUT US SECTION
 /*******************************************/
+.cherryPie {
+  width: 40%;
+  position: relative;
+  top: -15px;
+  float: left;
+  height: 100%;
+}
 
+.rightPart {
+  float: right;
+  width: 60%;
+  height: 100%;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../images/Rightside\ story.jpg);
+  position: relative;
+  top: -15px;
+}
 
+.aboutUs {
+  width: 100%;
+  height: 608px;
+}
+
+.orange {
+  color: #ff8800;
+  font-weight: 600;
+}
+
+.textPart {
+  position: relative;
+  top: 100px;
+  left: 15px;
+  width: 640px;
+}
 
 /******************************************
 /* QUISINE SECTION
