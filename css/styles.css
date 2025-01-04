@@ -314,11 +314,9 @@ h3 {
   width: 100%;
   height: 400px;
 }
-
 /******************************************
 /* HOVERING THING
 /*******************************************/
-
 .Items:hover{
   .foodButton, .stars, .price, .foodItem {
     visibility: visible;
@@ -330,8 +328,53 @@ h3 {
 /******************************************
 /* OPENING HOURS SECTION
 /*******************************************/
+.openingHours {
+  height: 900px;
+  text-align: center;
+  margin-top: 75px;
+}
 
+.fruitSaladImage {
+  height: 400px;
+  width: 750px;
+}
 
+.phoneNumber {
+  display: block;
+  font-size: 32px;
+}
+
+.phoneIcon {
+  display: block;
+  font-size: 48px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.openingTimes {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 0;
+  text-align: left;
+}
+
+.days {
+  margin-bottom: 6px;
+  text-align: left;
+}
+
+.DaysNdHrs {
+  float: left;
+  width: 50%;
+}
+
+.MonToTues {
+  padding-left: 400px;
+}
+
+.FriToSun {
+  padding-left: 200px;
+}
 
 /******************************************
 /* REVIEWS SECTION
