@@ -217,13 +217,14 @@ h3 {
 /* QUISINE SECTION
 /*******************************************/
 .images img {
-  width: 175px;
+  width: 200px;
   height: 300px;
+  border-radius: 3px;
 }
 
 .specialtyQuisine {
   text-align: center;
-  height: 800px;
+  height: 1200px;
   padding-top: 80px;
   background-color:#f2f6f7;
 }
@@ -245,6 +246,87 @@ h3 {
   color: #ff8800;
 }
 
+.rowOne span {
+  position: relative;
+  display: block;
+  bottom: 175px;
+  font-size: 18px;
+}
+
+.rowTwo span {
+  position: relative;
+  display: block;
+  bottom: 175px;
+  font-size: 18px;
+}
+
+.stars {
+  color:#ff8800;
+  visibility: hidden;
+}
+
+.price, .foodItem {
+  color: white;
+  font-size: 26px;
+  font-weight: 600;
+  visibility: hidden;
+}
+
+.foodButton {
+  position: relative;
+  bottom: 155px;
+  background-color:#ff8800;
+  color: white;
+  font-weight: 200;
+  font-size: 16px;
+  padding: 10px 8px;
+  border: none;
+  cursor: pointer;
+  visibility: hidden;
+  border-radius: 3px;
+}
+.rowOne {
+  float: left;
+  width: 15%;
+
+}
+
+.firstItem {
+  margin-left: 300px;
+}
+
+.Items {
+  height: 300px;
+}
+
+.firstRow {
+  width: 100%;
+  height: 400px;
+}
+
+.rowTwo {
+  float: left;
+  width: 15%;
+
+}
+
+.secondRow {
+  width: 100%;
+  height: 400px;
+}
+
+/******************************************
+/* HOVERING THING
+/*******************************************/
+
+.Items:hover{
+  .foodButton, .stars, .price, .foodItem {
+    visibility: visible;
+  }
+  .foodImages {
+    filter: brightness(50%) saturate(140%);
+  }
+}
 /******************************************
 /* OPENING HOURS SECTION
 /*******************************************/
